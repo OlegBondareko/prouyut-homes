@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ПроУют — Продажа домов</title>
+  <meta name="description" content="ПроУют — дома с уютными дворами, террасами и патио. Продажа домов в Кропоткине и по краю.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <div class="brand">ПроУют — Дома</div>
+    <nav class="nav">
+      <a href="tel:+79882483010" class="btn primary">Позвонить</a>
+      <a href="https://t.me/" class="btn" target="_blank" rel="noopener">Telegram</a>
+      <a href="https://wa.me/79882483010" class="btn" target="_blank" rel="noopener">WhatsApp</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <h1>Дома, в которых хочется жить и собираться</h1>
+    <p class="lede">Подберём дом с атмосферой: терраса, патио, двор для общения. Кропоткин и весь край.</p>
+    <div class="filters">
+      <input type="text" id="q" placeholder="Поиск по названию или локации" />
+      <input type="number" id="minp" placeholder="Цена от, ₽" min="0" step="50000" />
+      <input type="number" id="maxp" placeholder="Цена до, ₽" min="0" step="50000" />
+      <select id="beds">
+        <option value="">Спальни</option>
+        <option value="2">2+</option>
+        <option value="3">3+</option>
+        <option value="4">4+</option>
+      </select>
+      <button id="apply" class="btn primary">Показать</button>
+    </div>
+  </div>
+</section>
+
+<main class="wrap">
+  <div id="grid" class="grid"></div>
+</main>
+
+<footer class="foot">
+  <div class="wrap small">© ПроУют · Продажа домов · Кропоткин</div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
