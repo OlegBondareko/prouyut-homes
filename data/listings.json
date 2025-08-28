@@ -1,0 +1,89 @@
+[
+  {
+    "id": "kropotkin-park-terrace",
+    "title": "Дом с террасой у парка",
+    "price_rub": 5200000,
+    "location": "Кропоткин, Краснодарский край",
+    "area_m2": 120,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "lot_m2": 450,
+    "cover": "images/house1.jpg",
+    "photos": [
+      "images/house1.jpg",
+      "images/house2.jpg",
+      "images/house3.jpg"
+    ],
+    "features": [
+      "Тёплая терраса",
+      "Костровая зона",
+      "Деревянное патио",
+      "Парковка на 2 авто"
+    ],
+    "description": "Уютный семейный дом с продуманной планировкой и атмосферной уличной зоной для общения. Рядом парк и магазины.",
+    "links": {
+      "telegram": "https://t.me/ВАШ_НИК",
+      "whatsapp": "https://wa.me/79882483010",
+      "youtube": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+    },
+    "published": true,
+    "date": "2025-08-28"
+  },
+  {
+    "id": "suburb-wood-patio",
+    "title": "Современный дом с деревянным патио",
+    "price_rub": 6700000,
+    "location": "Пригород Кропоткина",
+    "area_m2": 145,
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "lot_m2": 520,
+    "cover": "images/house4.jpg",
+    "photos": [
+      "images/house4.jpg",
+      "images/house5.jpg",
+      "images/house6.jpg"
+    ],
+    "features": [
+      "Гардеробная",
+      "Тёплые полы",
+      "BBQ‑зона",
+      "Панорамные окна"
+    ],
+    "description": "Светлый дом в сканди‑стиле с акцентом на натуральные материалы и пространство для семьи и друзей.",
+    "links": {
+      "telegram": "https://t.me/ВАШ_НИК",
+      "vk": "https://vk.com/ВАШ_ПРОФИЛЬ"
+    },
+    "published": true,
+    "date": "2025-08-28"
+  },
+  {
+    "id": "cozy-courtyard",
+    "title": "Дом с уютным двориком",
+    "price_rub": 4300000,
+    "location": "Кропоткин, центр",
+    "area_m2": 98,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "lot_m2": 300,
+    "cover": "images/house7.jpg",
+    "photos": [
+      "images/house7.jpg",
+      "images/house8.jpg",
+      "images/house9.jpg"
+    ],
+    "features": [
+      "Зона отдыха",
+      "Садовые деревья",
+      "Навес",
+      "Тихая улица"
+    ],
+    "description": "Идеален для пары или небольшой семьи. Двор создан, чтобы проводить вечера вместе.",
+    "links": {
+      "telegram": "https://t.me/ВАШ_НИК"
+    },
+    "published": true,
+    "date": "2025-08-28"
+  }
+]
